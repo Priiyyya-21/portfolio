@@ -292,7 +292,11 @@ nav ul li a:hover::after {
   color: #dd88a3;
   transform: translateY(-5px);
 }
-.btn .btn2 {
+.btn.btn2 {
+  display: inline-block;
+  background: black;
+}
+.btn.btn2:hover {
   display: inline-block;
   background: #dd88a3;
 }
@@ -404,4 +408,10 @@ nav .fa-solid {
   .copyright {
     font-size: 14px;
   }
+}
+
+#msg {
+  color: #dd88a3;
+  margin-top: -40px;
+  display: block;
 }
